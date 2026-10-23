@@ -1,0 +1,74 @@
+
+
+body {
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color:rgb(255, 253, 240);
+}
+a:active {
+    color:rgb(103, 162, 255)
+}
+a:visited {
+    text-decoration-color: none;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: min-content 1fr min-content min-content;
+    background-color: lemonchiffon;
+
+}
+.logo > img {
+    width: auto;
+    height: 69px;;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.card {
+    align-self: center;
+}
+
+.card a {
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+    padding: 25px;
+}
+
+.card a:hover {
+    background-color: rgb(255, 243, 138);
+}
+
+/*navigaatio loppuu tähän*/
+.etu-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(144, 180, 249);
+}
+
+
+
+.banneri {
+    align-items: center;
+    text-align: center;
+}
+
+.tuotelistaus {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.tuote {
+    background-color: lemonchiffon;
+    
+}
+
+img {
+    width: 80%;
+    height:auto;
+    
+}
