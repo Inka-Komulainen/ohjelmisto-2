@@ -1,22 +1,20 @@
 
-
+/*Body ja universaalit tyylijutu*/
 body {
     margin-left: 250px;
     margin-right: 250px;
     background-color:rgb(255, 253, 240);
+    color:rgb(46, 57, 122);
+    font-family: 'Trebuchet MS', sans-serif;
 }
-a:active {
-    color:rgb(103, 162, 255)
+ul {
+    list-style-type: none;
 }
-a:visited {
-    text-decoration-color: none;
-}
-
+/*navigaation tyyli*/
 .navigation {
     display: grid;
     grid-template-columns: min-content 1fr min-content min-content;
-    background-color: lemonchiffon;
-
+    background-color: rgb(255, 248, 183);
 }
 .logo > img {
     width: auto;
@@ -25,50 +23,77 @@ a:visited {
 
 .flex-container {
     display: flex;
-    justify-content: flex-end;
-    
+    justify-content: flex-end; 
 }
 .card {
     align-self: center;
 }
 
 .card a {
-    font-family: Verdana, sans-serif;
     text-decoration: none;
     padding: 25px;
 }
-
 .card a:hover {
     background-color: rgb(255, 243, 138);
 }
-
-/*navigaatio loppuu tähän*/
-.etu-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(144, 180, 249);
+.card a:visited {
+    color: rgb(46, 57, 122);
 }
 
-
+/*navigaatio loppuu tähän*/
 
 .banneri {
     align-items: center;
     text-align: center;
+    background-image: url("tausta1.png");
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banneri img {
+    width: 80%;
+    height:auto;
+}
+.banneri p {
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
+/*Tuotelistan tyyli tuotteet sivulla*/
 .tuotelistaus {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    margin: 20px;
 }
 .tuote {
-    background-color: lemonchiffon;
-    
+    background-color: rgb(255, 248, 183);
+    padding-left: 20px;
+}
+.tuote img {
+    justify-content: center;
+    width: 90%;
+}
+.tuote h4 {
+    margin-top: 2px;
+    color:rgb(103, 162, 255);
+    font-family: Verdana, sans-serif;
 }
 
-img {
-    width: 80%;
-    height:auto;
-    
+/*ota yhteyttä sivun omat tyylijutut*/
+
+.kontakti {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding: 20px;
+    background-image: url("tausta1.png");
+}
+.kontakti img {
+    width: 90%;
+}
+.kontakti > :first-child {
+    width: 650px;
+}
+.kontakti strong:hover {
+    background-color: rgb(255, 243, 138);
 }

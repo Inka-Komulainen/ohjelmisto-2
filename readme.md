@@ -2,4 +2,4 @@
 
 ## Yrityksen verkkosivut tehtävä
 
-Verkkosivujen html on kuta kuinkin kasassa, mutta css vaatii vielä työstöä
+Verkkosivun koodi on kuta kuinkin valmis.
