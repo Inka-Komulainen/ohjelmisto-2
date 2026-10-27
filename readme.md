@@ -2,4 +2,6 @@
 
 ## Yrityksen verkkosivut tehtävä
 
-Verkkosivu tehtävä on valmis. Tarkistuskuvakaappaukset on lisätty omaan kansioon verkkosivutehtävän kansioon.
+Verkkosivu tehtävä on valmis. Tarkistuskuvakaappaukset ovat omassa html tiedostossa.
+
+## JavaScript moduuli 1
