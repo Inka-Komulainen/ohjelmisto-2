@@ -2,4 +2,4 @@
 
 ## Yrityksen verkkosivut tehtävä
 
-Verkkosivun koodi on kuta kuinkin valmis.
+Verkkosivu tehtävä on valmis. Tarkistuskuvakaappaukset on lisätty omaan kansioon verkkosivutehtävän kansioon.
