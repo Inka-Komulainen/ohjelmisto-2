@@ -10,13 +10,12 @@ if (luku > 1) {
         }
         console.log(i);
     }
-
     if (onkoAlkuluku == true) {
         document.querySelector("#vastaus").innerHTML = `${luku} on alkuluku!`;
     } else {
         document.querySelector("#vastaus").innerHTML = `${luku} ei ole alkuluku!`;
     } 
-} else if (luku == 1 ) {
+} else if (luku == 1) {
     document.querySelector("#vastaus").innerHTML = `1 on alkuluku!`;
 } else {
     document.querySelector("#vastaus").innerHTML = `${luku} ei ole alkuluku!`;
