@@ -1,0 +1,32 @@
+
+#main-head {
+    margin: 0 auto;
+    max-width: 780px;
+}
+
+desc {
+    float: left;
+}
+
+#vastaika {
+    float: right;
+}
+
+#controls {
+    margin: 0 auto;
+    max-width: 780px;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.box1, .box2 {
+    width: 24.5%;
+}
+
+.box3, .box4, .box5 {
+    width: 17%;
+}
