@@ -8,6 +8,7 @@ for (let i=0; i<3;i++) {
             break
         case 1:
             li.innerText = "Second item";
+            li.className = "my-item";
             break
         case 2:
             li.innerText = "Third item";
@@ -16,3 +17,4 @@ for (let i=0; i<3;i++) {
     }
     ul.appendChild(li);
 }
+

@@ -28,3 +28,20 @@ tehdyt tehtävät:
 - tehtävä 10 (8p)
 
 **Yhteensä 12p**
+
+## JavaScript moduuli 4
+
+[linkki tehtävien sivuihin](https://users.metropolia.fi/~inkakom/js-mod03/)
+
+tehdyt tehtävät:
+- tehtävä 1 (2p)
+- tehtävä 2 (2p)
+- tehtävä 3 (2p)
+- tehtävä 4 (2p)
+- tehtävä 5 (5p)
+- tehtävä 6 (1p)
+- tehtävä 7 (2p)
+- tehtävä 8 (4p)
+- tehtävä 9 (4p)
+
+**Yhteensä 24p**

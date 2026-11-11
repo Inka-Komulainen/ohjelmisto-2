@@ -1,22 +1,8 @@
 
-for (let i=0; i<3;i++) {
-    const ul = document.getElementById("target");
-    const li = document.createElement("li");
-    switch (i) {
-        case 0:
-            li.innerText = "First item";
-            break
-        case 1:
-            li.innerText = "Second item";
-            break
-        case 2:
-            li.innerText = "Third item";
-            break
-
-    }
-    ul.appendChild(li);
-}
 
 const ul = document.getElementById("target");
+const li = "<li>First item</li><li>Second item</li><li>Third item</li>";
+ul.innerHTML = li;
+
 ul.className = "my-list";
     
