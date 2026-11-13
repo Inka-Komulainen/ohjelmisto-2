@@ -32,6 +32,7 @@ tehdyt tehtävät:
 ## JavaScript moduuli 4
 
 [linkki tehtävien sivuihin](https://users.metropolia.fi/~inkakom/module3-starters-main/)
+
 tehdyt tehtävät:
 - tehtävä 1 (2p)
 - tehtävä 2 (2p)
